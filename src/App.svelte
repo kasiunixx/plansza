@@ -30,7 +30,7 @@
     }
 
     function markSquare(x: number, y: number){
-        if(boardState[y][x] !== "") {
+        if(boardState[y][x] !== "" || gameState !== "") {
             return;
         }
         if (counter % 2 === 0){
